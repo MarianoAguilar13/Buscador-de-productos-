@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscador ML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <form class="buscador-form">
+        <input
+          class="input-buscar"
+          name="productoNombre"
+          type="text"
+          placeholder="Lavarropas..."
+        />
+        <button class="boton-buscar">Buscar</button>
+      </form>
+    </header>
+    <div class="contenedor-busquedas">
+      <h3>Resultados: <span class="results-count"></span></h3>
+    </template>
+    </div>
+  </body>
+
+  <template id="producto-nuevo">
+    <div class="item-encontrado">
+      <img class="imagen-producto" src="" />
+      <div class="info-producto">
+        <h4 class="nombre-producto">Nombre del producto</h4>
+        <a href="" target="_blank" rel="noopener noreferrer" class="link-producto">Link a Mercado Libre</a>
+        <span class="cantidad-vendidos">vendidos:</span>
+      </div>
+      <div class="precio-producto"></div>
+    </div>
+  </template>
+</html>

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  display: flex;
+  height: 68px;
+  width: 100%;
+  background-color: #fff159;
+}
+
+.buscador-form {
+  min-width: 520px;
+  margin: auto auto;
+}
+
+.input-buscar {
+  width: 375px;
+  height: 44px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.boton-buscar {
+  width: 121px;
+  height: 44px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.contenedor-busquedas {
+  display: flex;
+  flex-direction: column;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.item-encontrado {
+  display: flex;
+  min-height: 130px;
+  width: 510px;
+}
+
+.imagen-producto {
+  align-items: center;
+  height: 128px;
+  width: 119px;
+}
+
+.info-producto {
+  display: flex;
+  min-height: 130px;
+  width: 272px;
+  padding: 0 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nombre-producto {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.link-producto {
+  min-height: 50px;
+  font-size: 14px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+a:link {
+  color: gray;
+}
+
+/* visited link */
+a:visited {
+  color: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+
+.cantidad-vendidos {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.precio-producto {
+  height: 128px;
+  width: 119px;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 10px;
+}
